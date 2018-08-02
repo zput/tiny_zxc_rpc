@@ -1,0 +1,76 @@
+﻿  Validating architecture
+  Validating sources
+  Copying sources remotely to '192.168.5.129'
+  Starting remote build
+  Compiling sources:
+  Accept.cc
+E:\linux\tiny_zxc_rpc _client\Accept.cc(39,5): warning : this ‘if’ clause does not guard... [-Wmisleading-indentation]
+E:\linux\tiny_zxc_rpc _client\Accept.cc(39,5): warning :      if (ret == -1)
+E:\linux\tiny_zxc_rpc _client\Accept.cc(39,5): warning :      ^~
+E:\linux\tiny_zxc_rpc _client\Accept.cc(44,2): message : ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  Buffer.cc
+  Channel.cc
+  EventLoop.cc
+E:\linux\tiny_zxc_rpc _client\EventLoop.cc(18,17): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+E:\linux\tiny_zxc_rpc _client\EventLoop.cc(18,17): warning :    return syscall(SYS_gettid);
+E:\linux\tiny_zxc_rpc _client\EventLoop.cc(18,17): warning :           ~~~~~~~^~~~~~~~~~~~
+  EventLoopThread.cc
+  InetAddress.cc
+  Logger.c
+cc1 : warning : command line option ‘-fthreadsafe-statics’ is valid for C++/ObjC++ but not for C
+cc1 : warning : command line option ‘-frtti’ is valid for C++/ObjC++ but not for C
+E:\linux\tiny_zxc_rpc _client\Logger.c(64,7): warning : conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+E:\linux\tiny_zxc_rpc _client\Logger.c(64,7): warning :      i += timestamp(data, 32);
+E:\linux\tiny_zxc_rpc _client\Logger.c(64,7): warning :        ^~
+E:\linux\tiny_zxc_rpc _client\Logger.c(65,7): warning : conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+E:\linux\tiny_zxc_rpc _client\Logger.c(65,7): warning :      i += sprintf(data + i, " [%d]", getpid());
+E:\linux\tiny_zxc_rpc _client\Logger.c(65,7): warning :        ^~
+E:\linux\tiny_zxc_rpc _client\Logger.c(66,7): warning : conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+E:\linux\tiny_zxc_rpc _client\Logger.c(66,7): warning :      i += sprintf(data + i, " %s ", log_level_str[level]);
+E:\linux\tiny_zxc_rpc _client\Logger.c(66,7): warning :        ^~
+E:\linux\tiny_zxc_rpc _client\Logger.c(72,15): warning : implicit declaration of function ‘dprintf’; did you mean ‘vprintf’? [-Wimplicit-function-declaration]
+E:\linux\tiny_zxc_rpc _client\Logger.c(92,7): warning : conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+E:\linux\tiny_zxc_rpc _client\Logger.c(92,7): warning :      i += timestamp(data, 32);
+E:\linux\tiny_zxc_rpc _client\Logger.c(92,7): warning :        ^~
+E:\linux\tiny_zxc_rpc _client\Logger.c(93,7): warning : conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+E:\linux\tiny_zxc_rpc _client\Logger.c(93,7): warning :      i += sprintf(data + i, " [%d]", getpid());
+E:\linux\tiny_zxc_rpc _client\Logger.c(93,7): warning :        ^~
+E:\linux\tiny_zxc_rpc _client\Logger.c(94,7): warning : conversion to ‘size_t {aka long unsigned int}’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+E:\linux\tiny_zxc_rpc _client\Logger.c(117,5): warning : implicit declaration of function ‘gmtime_r’; did you mean ‘gmtime’? [-Wimplicit-function-declaration]
+E:\linux\tiny_zxc_rpc _client\Logger.c(117,5): warning :      gmtime_r(&seconds, &tm_time);
+E:\linux\tiny_zxc_rpc _client\Logger.c(117,5): warning :      ^~~~~~~~
+E:\linux\tiny_zxc_rpc _client\Logger.c(117,5): warning :      gmtime
+  Poller.cc
+E:\linux\tiny_zxc_rpc _client\Poller.cc(101,26): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\linux\tiny_zxc_rpc _client\Poller.cc(101,26): warning :     if( pollFds_.size()-1 == ( channel->index())) {
+E:\linux\tiny_zxc_rpc _client\Poller.cc(101,26): warning :         ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+  TcpClient.cc
+  TcpConnection.cc
+E:\linux\tiny_zxc_rpc _client\TcpConnection.cc(153,27): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+E:\linux\tiny_zxc_rpc _client\TcpConnection.cc(153,27): warning :     n = inputBuffer_.readFd(connfd_, &savedErrno);
+E:\linux\tiny_zxc_rpc _client\TcpConnection.cc(153,27): warning :         ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+  test7.cc
+E:\linux\tiny_zxc_rpc _client\BaseRPC.hpp(138,17): warning : "/*" within comment [-Wcomment]
+E:\linux\tiny_zxc_rpc _client\SerializationAntiserialization.hpp(41,15): warning : conversion to ‘int’ from ‘__gnu_cxx::__normal_iterator<char*, std::vector<char> >::difference_type {aka long int}’ may alter its value [-Wconversion]
+E:\linux\tiny_zxc_rpc _client\SerializationAntiserialization.hpp(41,15): warning :     return itr - (begin()+m_curpos);
+E:\linux\tiny_zxc_rpc _client\SerializationAntiserialization.hpp(41,15): warning :            ~~~~^~~~~~~~~~~~~~~~~~~~
+E:\linux\tiny_zxc_rpc _client\SerializationAntiserialization.hpp(73,25): warning : conversion to ‘int’ from ‘std::vector<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\linux\tiny_zxc_rpc _client\SerializationAntiserialization.hpp(73,25): warning :    return m_iodevice.size();
+E:\linux\tiny_zxc_rpc _client\SerializationAntiserialization.hpp(73,25): warning :           ~~~~~~~~~~~~~~~^~
+E:\linux\tiny_zxc_rpc _client\SerializationAntiserialization.hpp(185,24): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\linux\tiny_zxc_rpc _client\SerializationAntiserialization.hpp(185,24): warning :   uint16_t len = in.size();
+E:\linux\tiny_zxc_rpc _client\SerializationAntiserialization.hpp(185,24): warning :                  ~~~~~~~^~
+E:\linux\tiny_zxc_rpc _client\BaseRPC.hpp(166,81): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\linux\tiny_zxc_rpc _client\BaseRPC.hpp(166,81): warning :        SerializationAntiserialization* r = call_(funname, ds.current(), ds.size()- funname.size());
+E:\linux\tiny_zxc_rpc _client\BaseRPC.hpp(166,81): warning :                                                                         ~~~~~~~~~^~~~~~~~~~~~~~~~
+E:\linux\tiny_zxc_rpc _client\test7.cc(66,20): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+E:\linux\tiny_zxc_rpc _client\test7.cc(66,20): warning :    for (int i = 0; i<reply.size(); i++) {
+E:\linux\tiny_zxc_rpc _client\test7.cc(66,20): warning :                    ~^~~~~~~~~~~~~
+E:\linux\tiny_zxc_rpc _client\test7.cc(83,52): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\linux\tiny_zxc_rpc _client\test7.cc(83,52): warning :    ds.write_raw_data((char*)reply.data(), reply.size());
+E:\linux\tiny_zxc_rpc _client\test7.cc(83,52): warning :                                           ~~~~~~~~~~^~
+E:\linux\tiny_zxc_rpc _client\BaseRPC.hpp(190,22): warning : unused variable ‘N’ [-Wunused-variable]
+  ThreadPool.cc
+  TimerQueue.cc
+  Linking objects
+  ConsoleApplication1.vcxproj -> E:\linux\tiny_zxc_rpc _client\all_muduo\ConsoleApplication1\ConsoleApplication1\bin\x64\Debug\ConsoleApplication1.out

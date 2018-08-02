@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="FullSignature">
+  <Comment CommentText="BaseRPC::callproxy  是一个private .   &#xD;&#xA;它又调用---&gt;callproxy_&#xD;&#xA;">
+    <Position X="9.994" Y="6.578" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="zxc_net::InetAddress" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAQCACgAAAAAAAAAAAAAAAAAAAACAAAAAAAQAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\InetAddress.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zxc_net::Channel" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAhAAAAgEABAZBCAABoIAAAAFIAAAAJEYQQAQAAFEIA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Channel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zxc_net::EventLoop" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAgMgAgABKEAAABSkBCBAAAMAAAAAAgCRACAAKAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\EventLoop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zxc_net::Accept" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAQAAEAIAAAAAAAABAAAAAAAgAAAQAAAAAQQAAAABA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Accept.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zxc_net::Buffer" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IABAABwAAEAEAACAIACAIACQAQACAAIAAQEEAgCIwAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Buffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zxc_net::TcpConnection" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCCAgNiAAAAQAjgCABAAAECFAAAAQAEAAAAYCFAgIQ=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\TcpConnection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zxc_net::Poller" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAMAAQAQAAAAIAAEggQAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Poller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zxc_net::Timer" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAhBAQAAAAgAgAAAAAICAAAEAAgAAAAAAAEAEAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zxc_net::TimerQueue" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACgEAEEAAAAAAAAAAAAAAAAAABAAAAAAAAAQAiAIAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\TimerQueue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zxc_net::EventLoopThread" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAIAAAAAAIIBAAAAAQAAAAQAAAIAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\EventLoopThread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zxc_net::EventLoopThreadPool" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAgAAAAgACAAAABACAAABAAAAAAAAAAEAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\EventLoopThreadPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zxc_net::TcpServerMulti" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAiAAgAAQAkKAAAggEAIAAAQQAAQgEAQABAIAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\TcpServerMulti.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zxc_net::TcpServer" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAAAAyAAAAAACACBAAAAMBBEAAQQAAAIAAQABAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\TcpServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zxc_net::ThreadPool" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAECAAAAAAAEAAAAkAEAAIAgAAAAAgBBAAABICA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\ThreadPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zxc_rpc::SerializationAntiserialization">
+    <Position X="2.25" Y="9.5" Width="4.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="zxc_rpc::SerializationAntiserialization::ByteOrder">
+        <TypeIdentifier>
+          <NewMemberFileName>E:\linux\tiny_zxc_rpc\SerializationAntiserialization.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEIAAAIEAABgAIQAAICAAqAAgAIAIAAAABAQAAAAAIA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\SerializationAntiserialization.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zxc_rpc::BaseRPC">
+    <Position X="11.75" Y="3.5" Width="8.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="zxc_rpc::BaseRPC::rpc_role" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>E:\linux\tiny_zxc_rpc\BaseRPC.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="zxc_rpc::BaseRPC::rpc_err_code" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>E:\linux\tiny_zxc_rpc\BaseRPC.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Class Name="zxc_rpc::BaseRPC::value_t&lt;T&gt;">
+        <Compartments>
+          <Compartment Name="Nested Types" Collapsed="false" />
+        </Compartments>
+        <NestedTypes>
+          <Typedef Name="zxc_rpc::BaseRPC::value_t&lt;T&gt;::type" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>E:\linux\tiny_zxc_rpc\BaseRPC.hpp</NewMemberFileName>
+            </TypeIdentifier>
+          </Typedef>
+          <Typedef Name="zxc_rpc::BaseRPC::value_t&lt;T&gt;::msg_type" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>E:\linux\tiny_zxc_rpc\BaseRPC.hpp</NewMemberFileName>
+            </TypeIdentifier>
+          </Typedef>
+          <Typedef Name="zxc_rpc::BaseRPC::value_t&lt;T&gt;::code_type" Collapsed="true">
+            <TypeIdentifier>
+              <NewMemberFileName>E:\linux\tiny_zxc_rpc\BaseRPC.hpp</NewMemberFileName>
+            </TypeIdentifier>
+          </Typedef>
+        </NestedTypes>
+        <TypeIdentifier>
+          <NewMemberFileName>E:\linux\tiny_zxc_rpc\BaseRPC.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAMAAQAAAAAAAAEAAIiAAgAIAAgQAAEAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\BaseRPC.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zxc_rpc::StreamBuffer">
+    <Position X="8" Y="9.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AACAAABEAAAAAIAAAAAAAgAAgAQAABAACAAQAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\SerializationAntiserialization.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RpcServer" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAEAAAgAAAAAgIEAAAAAAAAAAAACAAAAQQAAAAEA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\RpcServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="zxc_net::IntervalTypeCheckImpl&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Timestamp.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="zxc_rpc::type_xx&lt;T&gt;" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\BaseRPC.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="zxc_rpc::type_xx&lt;void&gt;" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\BaseRPC.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="zxc_net::TimerCallback" Collapsed="true">
+    <Position X="2.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::MessageCallback" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::WriteCallback" Collapsed="true">
+    <Position X="5.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::NewconnectionCallback" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::removeConnectionCallback" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::ConnectionCallback" Collapsed="true">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::TcpConnectionPtr" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::CloseCallback" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::WriteCompleteCallback" Collapsed="true">
+    <Position X="7.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::HighWaterMarkCallback" Collapsed="true">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::ErrorCallback" Collapsed="true">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::Task" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::ThreadInitCallback" Collapsed="true">
+    <Position X="0.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Callbacks.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::Nanosecond" Collapsed="true">
+    <Position X="7.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Timestamp.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::Microsecond" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Timestamp.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::Millisecond" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Timestamp.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::Second" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Timestamp.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::Minute" Collapsed="true">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Timestamp.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::Hour" Collapsed="true">
+    <Position X="7.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Timestamp.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="zxc_net::Timestamp" Collapsed="true">
+    <Position X="4" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E:\linux\tiny_zxc_rpc\Timestamp.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
