@@ -1,10 +1,4 @@
 
-/**
-*
-*	buttonrpc library
-*	Copyright 2018-04-28 Button
-*
-*/
 
 #ifndef SERIALIZATIONANTISERIALIZATION_H
 #define SERIALIZATIONANTISERIALIZATION_H

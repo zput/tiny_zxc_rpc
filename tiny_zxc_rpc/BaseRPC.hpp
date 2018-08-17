@@ -172,6 +172,8 @@ namespace zxc_rpc {
 				delete r;		
 		}
 		
+
+
 	public:
 	  // server   -------------
 		template<typename F>
@@ -290,10 +292,11 @@ namespace zxc_rpc {
 		
 		
 	private:
-		std::map<std::string, std::function<void(SerializationAntiserialization*, const char*, int)>> m_handlers;
-
-		// zmq::context_t m_context;
-		// zmq::socket_t* m_socket;
+		std::map<std::string, std::function
+			<void(SerializationAntiserialization*,
+									  const char*, 
+									          int )
+			>> m_handlers;     
 
 		rpc_err_code m_error_code;
 		int m_role;
